@@ -1,5 +1,26 @@
 import React, { useState, useEffect } from "react";
-import IMG1 from "../../assets/bookStore.png";
+
+// book Store images
+import IMG1 from "../../assets/bookStoreImages/bookStore.png";
+import LOGIN from "../../assets/bookStoreImages/signup.png";
+import REGISTER from "../../assets/bookStoreImages/register.png";
+import BOOKLIST from "../../assets/bookStoreImages/bookList.png";
+import BOOKDETAILS from "../../assets/bookStoreImages/bookDetails.png";
+
+// doctors Appointment images
+
+import DOC_HOME from "../../assets/DoctorsAppointmentImages/homepage.png";
+import DOC_LOGIN from "../../assets/DoctorsAppointmentImages/login.png";
+import DOC_REGISTER from "../../assets/DoctorsAppointmentImages/register.png";
+import DOC_APPOINTMENTS from "../../assets/DoctorsAppointmentImages/image.png";
+
+// portfolio Images
+import PORT_HOME from "../../assets/portfolioImages/home.png";
+import PORT_ABOUTME from "../../assets/portfolioImages/aboutMe.png";
+import PORT_CONTACTME from "../../assets/portfolioImages/contactMe.png";
+import PORT_EDUCATION from "../../assets/portfolioImages/education.png";
+import PORT_PROJECTS from "../../assets/portfolioImages/projects.png";
+import PORT_SKILLS from "../../assets/portfolioImages/skills.png";
 
 import "./project.css";
 
@@ -9,8 +30,7 @@ const Project = () => {
       id: 1,
       title: "BookStore",
       img: IMG1,
-      description:
-        "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+      description: "",
       technologies:
         "ReactJS, NodeJS, ExpressJS, MongoDB, Redux, Ant design, HTML5, CSS3, JS",
       link: "https://bookstore-backend-zbwq.onrender.com/",
@@ -19,174 +39,181 @@ const Project = () => {
         {
           title: "BookStore",
           img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+          description: "",
         },
         {
-          title: "NewBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+          title: "Login Page",
+          img: LOGIN,
+          description: "",
         },
         {
-          title: "oldBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+          title: "Register Page",
+          img: REGISTER,
+          description: "",
         },
         {
-          title: "fourthBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+          title: "Book List",
+          img: BOOKLIST,
+          description: "",
+        },
+        {
+          title: "Book Details",
+          img: BOOKDETAILS,
+          description: "",
         },
       ],
     },
     {
       id: 2,
       title: "Doctors Appointment",
-      img: IMG1,
+      img: DOC_HOME,
       description:
         "Build a resilient MERN stack appointment app facilitating doctor profile creation and user bookings with real-time availability. Admin, doctor, and user panels streamline tasks, fostering efficient management and improved interactions in healthcare scheduling",
       technologies:
         "ReactJS, NodeJS, ExpressJS, MongoDB, Redux, Ant design, HTML5, CSS3, JS",
-      link: null,
+      link: "https://doctors-appointment-smoky.vercel.app/",
       github: "https://github.com/amanyadav777/DoctorsAppointement",
       projectDetails: [
         {
-          title: "BookStore",
-          img: IMG1,
+          title: "Home Page",
+          img: DOC_HOME,
           description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+            "",
         },
         {
-          title: "NewBookStore",
-          img: IMG1,
+          title: "Login Page",
+          img: DOC_LOGIN,
           description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+            "",
         },
         {
-          title: "oldBookStore",
-          img: IMG1,
+          title: "Register Page",
+          img: DOC_REGISTER,
           description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+            "",
         },
         {
-          title: "fourthBookStore",
-          img: IMG1,
+          title: "Appointments Page",
+          img: DOC_APPOINTMENTS,
           description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+            "",
         },
       ],
     },
-    {
-      id: 3,
-      title: "We-Chatt",
-      img: IMG1,
-      description:
-        "Built a robust MERN chat app with user profiles, real-time search, one-to-one chat, group creation, and instant notifications. Prioritizing communication, the app enhances user engagement with streamlined features for seamless interaction and optimal user experience.",
-      technologies:
-        "ReactJS, NodeJS, ExpressJS, Socket.io, MongoDB, HTML5, CSS3, JS",
-      link: null,
-      github: "https://github.com/amanyadav777/We-Chatt",
-      projectDetails: [
-        {
-          title: "BookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
-        },
-        {
-          title: "NewBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
-        },
-        {
-          title: "oldBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
-        },
-        {
-          title: "fourthBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: "StockX",
-      img: IMG1,
-      description:
-        "In a rapid 3-day hackathon, crafted a dynamic project integrating NSE/BSE index data and details from five major companies. Implemented user-friendly Login/SignUp, and utilized graph-based visualization for easy market metric analysis, covering Opening, Closing, High, Low, etc.",
-      technologies:
-        "ReactJS, NodeJS, ExpressJS, MongoDB, Redux, Ant design, HTML5, CSS3, JS",
-      link: null,
-      github: "https://github.com/amanyadav777/Team-Baapu",
-      projectDetails: [
-        {
-          title: "BookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
-        },
-        {
-          title: "NewBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
-        },
-        {
-          title: "oldBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
-        },
-        {
-          title: "fourthBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
-        },
-      ],
-    },
+    // {
+    //   id: 3,
+    //   title: "We-Chatt",
+    //   img: IMG1,
+    //   description:
+    //     "Built a robust MERN chat app with user profiles, real-time search, one-to-one chat, group creation, and instant notifications. Prioritizing communication, the app enhances user engagement with streamlined features for seamless interaction and optimal user experience.",
+    //   technologies:
+    //     "ReactJS, NodeJS, ExpressJS, Socket.io, MongoDB, HTML5, CSS3, JS",
+    //   link: null,
+    //   github: "https://github.com/amanyadav777/We-Chatt",
+    //   projectDetails: [
+    //     {
+    //       title: "BookStore",
+    //       img: IMG1,
+    //       description:
+    //         "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+    //     },
+    //     {
+    //       title: "NewBookStore",
+    //       img: IMG1,
+    //       description:
+    //         "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+    //     },
+    //     {
+    //       title: "oldBookStore",
+    //       img: IMG1,
+    //       description:
+    //         "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+    //     },
+    //     {
+    //       title: "fourthBookStore",
+    //       img: IMG1,
+    //       description:
+    //         "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 4,
+    //   title: "StockX",
+    //   img: IMG1,
+    //   description:
+    //     "In a rapid 3-day hackathon, crafted a dynamic project integrating NSE/BSE index data and details from five major companies. Implemented user-friendly Login/SignUp, and utilized graph-based visualization for easy market metric analysis, covering Opening, Closing, High, Low, etc.",
+    //   technologies:
+    //     "ReactJS, NodeJS, ExpressJS, MongoDB, Redux, Ant design, HTML5, CSS3, JS",
+    //   link: null,
+    //   github: "https://github.com/amanyadav777/Team-Baapu",
+    //   projectDetails: [
+    //     {
+    //       title: "BookStore",
+    //       img: IMG1,
+    //       description:
+    //         "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+    //     },
+    //     {
+    //       title: "NewBookStore",
+    //       img: IMG1,
+    //       description:
+    //         "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+    //     },
+    //     {
+    //       title: "oldBookStore",
+    //       img: IMG1,
+    //       description:
+    //         "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+    //     },
+    //     {
+    //       title: "fourthBookStore",
+    //       img: IMG1,
+    //       description:
+    //         "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+    //     },
+    //   ],
+    // },
     {
       id: 5,
       title: "Portfolio",
-      img: IMG1,
+      img: PORT_HOME,
       description:
         "In a rapid 3-day hackathon, crafted a dynamic project integrating NSE/BSE index data and details from five major companies. Implemented user-friendly Login/SignUp, and utilized graph-based visualization for easy market metric analysis, covering Opening, Closing, High, Low, etc.",
       technologies:
         "ReactJS, NodeJS, ExpressJS, MongoDB, Redux, Ant design, HTML5, CSS3, JS",
       link: null,
-      github: "https://github.com/amanyadav777/Team-Baapu",
+      github: "https://github.com/amanyadav777/me_portfolio",
       projectDetails: [
         {
-          title: "BookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+          title: "Home Page",
+          img: PORT_HOME,
+          description: "",
         },
         {
-          title: "NewBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+          title: "About Page",
+          img: PORT_ABOUTME,
+          description: "",
         },
         {
-          title: "oldBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+          title: "Experience & Education Page",
+          img: PORT_EDUCATION,
+          description: "",
         },
         {
-          title: "fourthBookStore",
-          img: IMG1,
-          description:
-            "Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.",
+          title: "Skills Page",
+          img: PORT_SKILLS,
+          description: "",
+        },
+        {
+          title: "Projects Page",
+          img: PORT_PROJECTS,
+          description: "",
+        },
+        {
+          title: "Contact Me Page",
+          img: PORT_CONTACTME,
+          description: "",
         },
       ],
     },

@@ -54,6 +54,10 @@ const Skills = () => {
             </article>
             <article className="skill__details">
               <BsFillPatchCheckFill className="skill__details-icon" />
+              <h4>Django</h4>
+            </article>
+            <article className="skill__details">
+              <BsFillPatchCheckFill className="skill__details-icon" />
               <h4>MongoDB</h4>
             </article>
             <article className="skill__details">
