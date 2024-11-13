@@ -77,26 +77,22 @@ const Project = () => {
         {
           title: "Home Page",
           img: DOC_HOME,
-          description:
-            "",
+          description: "",
         },
         {
           title: "Login Page",
           img: DOC_LOGIN,
-          description:
-            "",
+          description: "",
         },
         {
           title: "Register Page",
           img: DOC_REGISTER,
-          description:
-            "",
+          description: "",
         },
         {
           title: "Appointments Page",
           img: DOC_APPOINTMENTS,
-          description:
-            "",
+          description: "",
         },
       ],
     },
@@ -182,7 +178,7 @@ const Project = () => {
         "In a rapid 3-day hackathon, crafted a dynamic project integrating NSE/BSE index data and details from five major companies. Implemented user-friendly Login/SignUp, and utilized graph-based visualization for easy market metric analysis, covering Opening, Closing, High, Low, etc.",
       technologies:
         "ReactJS, NodeJS, ExpressJS, MongoDB, Redux, Ant design, HTML5, CSS3, JS",
-      link: null,
+      link: "https://portfolio-aman-yadavs-projects-8e11333f.vercel.app/",
       github: "https://github.com/amanyadav777/me_portfolio",
       projectDetails: [
         {
